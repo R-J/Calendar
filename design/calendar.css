@@ -1,0 +1,82 @@
+/*
+table.CalMod {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+
+table.CalMod th, td {
+  line-height: 2em;
+  padding: 1px;
+  text-align: center;
+}
+
+table.CalMod .CalModDayNames, .CalMod .Today {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.03);
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.CalMod .Button {
+  line-height: 2em;
+  display: table-cell;
+  padding: 1px;
+}
+
+.CalMod .WrapperMonth {
+  opacity: 0.5;
+}
+
+.CalModNavigation .NavButton {
+  width: 30%;
+}
+*/
+
+
+div#CalendarModule {
+  width: 100%;
+}
+
+div#CalendarModule div {
+  box-sizing: border-box;
+}
+
+div#CalendarModule div.Calendar > div {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+div#CalendarModule div.Calendar > div > div {
+  display: table-cell;
+  text-align: center;
+}
+
+div#CalendarModule div.Week {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  line-height: 2em;
+}
+
+div#CalendarModule div.DayNames {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.03);
+  font-weight: bold;
+}
+
+div#CalendarModule .WrapperMonth {
+  opacity: 0.5;
+}
+
+div#CalendarModule div.Navigation {
+  margin-top: 5px;
+}
+
+div#CalendarModule .NavButton {
+  display: table-cell;
+  width: 50%;
+}
+
+div#CalendarModule .CalendarEventList .NavButton {
+  width: 100%;
+}
